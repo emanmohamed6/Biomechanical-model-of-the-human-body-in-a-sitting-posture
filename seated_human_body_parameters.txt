@@ -1,0 +1,50 @@
+
+# Mass and Moment of Inertia for Body Parts
+m_head           7.24      [kg]       Mass of the head
+I_head           0.411     [kg·m^2]   Moment of inertia of the head
+m_torso          19.90     [kg]       Mass of the torso
+I_torso          1.627     [kg·m^2]   Moment of inertia of the torso
+m_pelvis         11.01     [kg]       Mass of the pelvis
+I_pelvis         0.692     [kg·m^2]   Moment of inertia of the pelvis
+m_thigh          20.35     [kg]       Mass of the thighs
+I_thigh          1.180     [kg·m^2]   Moment of inertia of the thighs
+m_viscera        12.92     [kg]       Mass of the viscera
+
+# Translational Stiffness and Damping (kN/m, kN·s/m)
+k_head_torso_trans       113.7      [kN/m]    Translational stiffness: Head-Torso
+c_head_torso_trans       0.066      [kN·s/m]  Translational damping: Head-Torso
+
+k_torso_pelvis_trans     0.299      [kN/m]    Translational stiffness: Torso-Pelvis
+c_torso_pelvis_trans     1.79       [kN·s/m]  Translational damping: Torso-Pelvis
+
+k_pelvis_thigh_trans     6.40       [kN/m]    Translational stiffness: Pelvis-Thigh
+c_pelvis_thigh_trans     0.061      [kN·s/m]  Translational damping: Pelvis-Thigh
+
+k_thigh_leg_trans        23.55      [kN/m]    Translational stiffness: Thigh-Leg
+c_thigh_leg_trans        0.154      [kN·s/m]  Translational damping: Thigh-Leg
+
+# Rotational Stiffness and Damping (kN·m/rad, kN·m·s/rad)
+k_head_torso_rot         0.915      [kN·m/rad]    Rotational stiffness: Head-Torso
+c_head_torso_rot         0.340      [kN·m·s/rad]  Rotational damping: Head-Torso
+
+k_torso_pelvis_rot       0.328      [kN·m/rad]    Rotational stiffness: Torso-Pelvis
+c_torso_pelvis_rot       0.724      [kN·m·s/rad]  Rotational damping: Torso-Pelvis
+
+k_pelvis_thigh_rot       0.162      [kN·m/rad]    Rotational stiffness: Pelvis-Thigh
+c_pelvis_thigh_rot       0.030      [kN·m·s/rad]  Rotational damping: Pelvis-Thigh
+
+k_thigh_leg_rot          0.220      [kN·m/rad]    Rotational stiffness: Thigh-Leg
+c_thigh_leg_rot          0.104      [kN·m·s/rad]  Rotational damping: Thigh-Leg
+
+# Additional Parameters
+k_viscera_torso_trans    1.93       [kN/m]       Translational stiffness: Viscera-Torso
+c_viscera_torso_trans    0.079      [kN·s/m]     Translational damping: Viscera-Torso
+
+k_viscera_pelvis_trans   18.37      [kN/m]       Translational stiffness: Viscera-Pelvis
+c_viscera_pelvis_trans   0.197      [kN·s/m]     Translational damping: Viscera-Pelvis
+
+k_seat_pelvis_trans      121.3      [kN/m]       Translational stiffness: Seat-Pelvis
+c_seat_pelvis_trans      0.047      [kN·s/m]     Translational damping: Seat-Pelvis
+
+k_seat_thigh_trans       16.71      [kN/m]       Translational stiffness: Seat-Thigh
+c_seat_thigh_trans       8.01       [kN·s/m]     Translational damping: Seat-Thigh

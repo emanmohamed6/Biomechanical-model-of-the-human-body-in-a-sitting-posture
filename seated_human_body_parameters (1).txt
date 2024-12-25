@@ -1,0 +1,39 @@
+m_head 7.24[kg] Mass of head
+I_head 0.411[kg*m^2] Moment of inertia of head
+m_torso 19.9[kg] Mass of torso
+I_torso 1.627[kg*m^2] Moment of inertia of torso
+m_pelvis 11.01[kg] Mass of pelvis
+I_pelvis 0.692[kg*m^2] Moment of inertia of pelvis
+m_thigh 20.35[kg] Mass of thigh
+I_thigh 1.18[kg*m^2] Moment of inertia of thigh
+m_viscera 12.92[kg] Mass of viscera
+k1 113.7[kN/m] Translational stiffness, head-torso joint
+c1 0.066[kN/(m/s)] Translational damping coefficient, head-torso joint
+kr1 0.915[kN*m/rad] Rotational stiffness, head-torso joint
+cr1 0.340[kN*m/(rad/s)] Rotational damping coefficient, head-torso joint
+k2 0.299[kN/m] Translational stiffness, torso-pelvis joint
+c2 1.79[kN/(m/s)] Translational damping coefficient, torso-pelvis joint
+kr2 0.328[kN*m/rad] Rotational stiffness, torso-pelvis joint
+cr2 0.724[kN*m/(rad/s)] Rotational damping coefficient, torso-pelvis joint
+k3 6.40[kN/m] Translational stiffness, pelvis-thigh joint
+c3 0.061[kN/(m/s)] Translational damping coefficient, pelvis-thigh joint
+kr3 0.162[kN*m/rad] Rotational stiffness, pelvis-thigh joint
+cr3 0.030[kN*m/(rad/s)] Rotational damping coefficient, pelvis-thigh joint
+k4 23.55[kN/m] Translational stiffness, thigh-leg joint
+c4 0.154[kN/(m/s)] Translational damping coefficient, thigh-leg joint
+kr4 0.220[kN*m/rad] Rotational stiffness, thigh-leg joint
+cr4 0.104[kN*m/(rad/s)] Rotational damping coefficient, thigh-leg joint
+kh5 1.93[kN/m] Horizontal stiffness, viscera-torso joint
+ch5 0.079[kN/(m/s)] Horizontal damping coefficient, viscera-torso joint
+kv6 18.37[kN/m] Vertical stiffness, viscera-pelvis joint
+cv6 0.197[kN/(m/s)] Vertical damping coefficient, viscera-pelvis joint
+kh7 0.905[kN/m] Horizontal stiffness, seat-pelvis joint
+ch7 0.015[kN/(m/s)] Horizontal damping coefficient, seat-pelvis joint
+kv7 121.3[kN/m] Vertical stiffness, seat-pelvis joint
+cv7 0.047[kN/(m/s)] Vertical damping coefficient, seat-pelvis joint
+kh8 0.614[kN/m] Horizontal stiffness, seat-thigh joint
+ch8 0.014[kN/(m/s)] Horizontal damping coefficient, seat-thigh joint
+kv8 16.71[kN/m] Vertical stiffness, seat-thigh joint
+cv8 8.01[kN/(m/s)] Vertical damping coefficient, seat-thigh joint
+vtt_in 1[m/s^2] Input acceleration
+i_c 1 Damping controller
